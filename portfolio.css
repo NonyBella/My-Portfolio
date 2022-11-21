@@ -1,3 +1,68 @@
-image{
-    all: unset;
+.all{
+    background-color: white;
+    margin: 20px 10px 0px 10px;
+    padding: 10px;
+
+}
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-header img{
+    width: 30px;
+    margin-top: 0;
+
+
+}
+
+.nav-header li {
+    display: inline;
+    margin-left: 10px;
+}
+.nav-header a {
+    margin-top: 0;
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+
+}
+.nav-header li .active {
+    background-color: black;
+    color: white;
+}
+.intro {
+    display: flex;
+    align-items: center;
+}
+.intro div{
+    margin-left: 20px;
+}
+.intro img {
+    width: 300px;
+}
+.about-me {
+    display: flex;
+    
+}
+.about-me>div {
+    width: 500px;
+    line-height: 2;
+    padding: 50px;
+} 
+.about-me li{
+    display: inline-block;
+    border: 1px solid rgb(229, 226, 226);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+
+}
+.about-me h4{
+       display: flex;
+       justify-content: center;
+}
+body {
+    background-image: linear-gradient(90deg, lightskyblue,pink);
+
 }
